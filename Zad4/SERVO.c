@@ -81,7 +81,6 @@ void Servo (){
 			break;
 		default:
 			break;
-			break;
 			}
 }
 

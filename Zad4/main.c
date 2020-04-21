@@ -8,7 +8,6 @@
 
 
 int main (){
-	LedInit();
 	KeyboardInit();	
 	ServoInit(5);
 	while(1){
@@ -23,7 +22,6 @@ int main (){
 				ServoGoTo(100);
 				break;
 			default:
-				break;
 				break;
 		}
 	}
