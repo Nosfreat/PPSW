@@ -8,6 +8,7 @@
 
 
 int main (){
+	LedInit();
 	KeyboardInit();	
 	ServoInit(5);
 	while(1){
